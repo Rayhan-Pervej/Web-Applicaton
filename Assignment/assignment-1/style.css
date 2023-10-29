@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background: #10111d;
+    color: #ffffff;
+}
+
+strong {
+
+    color: rgb(90, 255, 139);
+    font-size: large;
+
+}
+
+.header {
+    text-align: center;
+    line-height: 1.5;
+    margin: 2rem;
+}
+
+.facultyName {
+    margin: 0 2rem;
+    line-height: 1.5;
+}
+
+
+#contact {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#contact img {
+    margin-left: .5rem;
+    vertical-align: middle;
+}
+
+.content {
+    margin: 2rem;
+    text-align: justify;
+}
+
+.content p {
+    margin-top: 1rem;
+}
+
+.assesment {
+    margin: 2rem;
+}
+
+.assesment p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.assesment span {
+    color: rgb(247, 250, 105);
+}
+
+.assesment dl{
+    margin-top: 2rem;
+    font-weight: bolder;
+    font-size: large;
+    line-height: 4rem;
+}
+
+.assesment dt,dd{
+    display: inline;
+    background-color: aquamarine;
+    color: #10111d;
+    border: 10px solid aquamarine;
+    border-radius: 2rem;
+    margin-block-end: 3rem;
+    margin-inline-start: 2rem;   
+}
+
+.assesment dt {
+    position: relative;
+    border-right: 12px solid aquamarine;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.assesment dt::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -2.5rem;
+    transform: translateY(-50%);
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+    border-left: 2rem solid aquamarine;
+}
+
+.topic {
+    margin: 2rem;
+}
+
+
+.topic table{
+    background-color: rgb(192, 194, 224);
+    color: #10111d;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.topic table,tr,th,td{
+    margin-top: 4rem;
+    border-collapse: collapse;
+    padding: 2rem;
+}
+
+.topic table th {
+    padding-bottom: 2rem;
+    position: relative;
+    background-color: rgb(133, 180, 111);
+    font-size: large;
+}
+
+.topic table td{
+    font-size:medium;
+}
+
+.topic #r2{
+    background-color: rgba(241, 239, 116, 0.637);
+}
+
+.topic #r3{
+    background-color: rgba(116, 181, 241, 0.637);
+}
+.topic #r4{
+    background-color: rgba(241, 156, 116, 0.637);
+}
+.topic #r5{
+    background-color: rgba(116, 226, 241, 0.596);
+}
+
+.topic #tableIcon {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    top: -15px;
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: rgb(133, 180, 111);
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+

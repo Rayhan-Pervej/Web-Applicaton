@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayhan</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1 id="header">MySelf</h1>
+    </header>
+
+    <hr>
+
+    <main>
+        <h1>Who am I ?</h1>
+
+        <figure id="bio">
+            <img src="img/rayhan.jpg" alt="Picture of Rayhan Pervej"
+                title="This is a picture of me. I was happy and smiling that time." width="200" height="270"
+                loading="lazy">
+            <figcaption id="caption"><em>Smiling face of Rayhan Pervej</em></figcaption>
+        </figure>
+
+        <p>Hi, my name is Rayhan Pervej. I am 23 years old. I am studing <abbr
+                title="Computer Science and Engineering">CSE</abbr> at <abbr
+                title="Independent University Bangladesh">IUB</abbr>. I like playing football, watching series,
+            movies and visting new places.</p>
+
+        <nav>
+            <strong id="content">List of this page content</strong>
+            <ul>
+                <li><a href="#address">Adress</a></li>
+                <li><a href="#plan"> Weekend Plan</a></li>
+                <li><a href="#table"> Activity Table</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <section id="address">
+
+            <h2>My Address</h2>
+
+            <p>
+                For moving to university and football ground and other places, I choose to live in Bashundhara R/A. It
+                is a quit place. Very much peaceful to live. But the mosquitos and higher living cost made it unlivable
+                for most students.
+            </p>
+            <p>
+                <br><b>Contact number:</b> <a href="tel:+8801611060324"> +8801611060324</a>
+                <br><b>Email:</b><a href="mailto:rayhanp1011@gmail.com" target="_blank"> Rayhan Pervej</a>
+                <br> <b id="house">Here is my full address:</b>
+                <br><em>B flat, 3rd Floor, 29 House, 1 road, C block, Bashundhara R/A, Vhatara, Dhaka North, Dhaka.
+                </em>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <section id="plan">
+
+            <h2> My This Week Plan</h2>
+
+            <p>So this week I got a long break. So I wanted to learn something important, which can make my life easier.
+                <br>Here is a list of work I am gonna do:
+            </p>
+
+            <ol>
+                <li>Learning HTML and CSS.</li>
+                <li>Completeing ENV mid syllabus.</li>
+                <li>Drawing the rich picture of the <strong>Blood Lagbe</strong> project. </li>
+                <li>Practicing the Web courses Lecture slide code. </li>
+            </ol>
+
+        </section>
+
+        <hr>
+
+        <section id="schedule">
+
+            <h2>What I need to complete this week plan</h2>
+
+            <dl>
+                <dt><b>Vs code and Youtube</b></dt>
+                <dd>First I am gonna select a tutorial video for html and css. Then I am gonna practice that on Vs code
+                    text
+                    editor.</dd>
+
+                <dt><b>ChatGPT and Lecture slide</b></dt>
+                <dd>Fitst I am gonna open the desired course lecture slide. Then I am gonna read that. If I do not
+                    understand any topic, I will asked ChatGPT to explain that. ChatGPT gonna explain everything
+                    according
+                    my needs. It gonna save my time and faster way to learn anything.</dd>
+
+                <dt><b>Draw.io</b></dt>
+                <dd>Draw.io gonna help me to draw the rich picture easily. It has everything for drawing. This website
+                    is
+                    populer and userfriendly.</dd>
+            </dl>
+
+            <table id="table">
+                <caption>Daily Plan Schedule</caption>
+                <thead>
+
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Saturday</th>
+                        <td>Html and CSS</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sunday</th>
+                        <td>ENV Mid syllabus</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>Rich picture drawing</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thuesday</th>
+                        <td>Web Lecture slide reading</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">So I need this 4 days to complete my this weekend studies. I hope I will cover
+                            all
+                            the task within the time. If I need more time I am gonna continue my studies other days.
+                        </td>
+
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <article id="yourInfo">
+            <h2>What about you?</h2>
+            <p>I really wannt hear about yourself. I hope you will complete the form below. I am waiting!</p>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Your Basic Information</legend>
+                    <p>
+                        <label for="firstName">First Name: </label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Rayhan" autocomplete="on"
+                            required>
+                    </p>
+                    <p>
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Pervej" autocomplete="on"
+                            required>
+                    </p>
+                    <p>
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" placeholder="xxxxxx" required>
+                    </p>
+                    <p>
+                        <label for="Phone">Phone: </label>
+                        <input type="tel" name="Phone" id="Phone" placeholder="01234567890">
+                    </p>
+                    <p>
+                        <label for="age">Age: </label>
+                        <input type="number" name="age" id="age" min="15" max="50" step="1" value="25">
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Favorite Movies </legend>
+                    <br>
+                    <p>
+                        <label for="movie">Movies: </label>
+                        <select name="movie" id="movie" multiple size="4">
+                            <optgroup label="Comics">
+                                <option value="Spider Man">Spider Man</option>
+                                <option value="Iron Man">Iron Man</option>
+                                <option value="Bat Man" selected>Bat Man</option>
+                            </optgroup>
+                            <optgroup label="Mystery">
+                                <option value="sharlock holmes">Sharlock Holmes</option>
+                                <option value="enola holmes">Enola Holmes</option>
+                                <option value="glass onion">Glass Onion</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> What is your Favorite food? </legend>
+                    <p>
+                        <input type="radio" name="food" id="noodles" value="noodles">
+                        <label for="noodles">Noodles</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza" value="pizza">
+                        <label for="pizza">Pizza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="other" value="other">
+                        <label for="other">Other</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Do you have pets?</legend>
+                    <p>
+                        <input type="checkbox" name="pets" id="dog" value="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="cat" value="cat">
+                        <label for="cat">Cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pets" id="otherpet" value="otherpet">
+                        <label for="otherpet">Other</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Send Me A Note</legend>
+                    <p>
+                        <label for="message">Your Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"
+                            placeholder="Hi, My name is Rayhan."></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <button type="submit" formaction="https://httpbin.org/pos" method="post">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+
+        </article>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        &lt;&lt;&lt; &copy <a href="https://www.facebook.com/I.am.RayhanPervej" target="_blank">Rayhan Pervej</a>
+        &gt;&gt;&gt;
+
+        <P><a href="#">Back to Top</a></P>
+
+    </footer>
+
+
+</body>
+
+</html>
