@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header #logo {
+    margin: 2rem;
+    width: 80px;
+    height: 80px;
+    margin: 1rem 2rem;
+    position: relative;
+}
+
+#logoname{
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: xx-large;
+    color:rgb(3, 63, 13);
+    position: absolute;
+    bottom: 2rem;
+    left: 120px;
+}
+
+nav{
+    font-size: 20px;
+    font-family: "lato";
+    position: relative;
+    background-color: rgba(174, 184, 184, 0.39);   
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin-left: 15rem;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+
+
+nav li{
+    display: inline-block;
+    margin-inline: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.712);
+    position: relative;
+}
+
+nav a:hover, nav a:visited {
+    color: rgb(0, 0, 0);
+}
+
+nav a:active, nav a:focus {
+    color: rgb(0, 0, 0);
+}
+
+nav .navunderline::after{
+    content:'';
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    left: 0;
+    bottom: -4px;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+nav .navunderline:hover:after{
+    width: 100%;
+}
+
+#intro{
+    background-image: url(img/header_pic.jpg);
+    height: 43rem;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#introText{
+
+    font-family: "poppins";
+    margin: 15rem 4rem 0 5rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3, 63, 13);
+    width: 20rem;
+    text-align: center;   
+}
+
+#introText p:first-child{
+    font-size: 45px;
+    font-weight: 1000;
+    display: inline-block;
+    width: 17rem;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+
+#introText span{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.serviceDescription{
+    margin: 40rem 2rem 0 2rem;
+    font-family: "poppins";
+    text-align: center;
+}
+
+.serviceDescription #figcaption{
+    display: inline;
+    font-family: "lato";
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    color: rgb(75, 116, 75);
+    position: relative;
+}
+
+.serviceDescription #figcaption::after{
+    content:'';
+    position: absolute;
+    background-color: rgb(255, 230, 0);
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    
+}
+
+.serviceContent{
+    columns: 3 300px;
+    column-gap: 4rem;
+    width: fit-content;
+    margin: 4rem auto;
+}
+
+.serviceContent p{
+    break-inside: avoid;
+    margin: 2rem auto;
+    text-align: left;
+    width:min-content;
+    display: flex;
+    flex-direction: column;
+    color: rgb(75, 116, 75);
+}
+
+.serviceContent p:first-child{
+    margin-top: 0;
+}
+
+.serviceContent strong{
+    font-size: x-large;
+    text-align: left;
+}
+
+
+
+.quote{
+    background-color: rgba(92, 238, 129, 0.13);
+    text-align: center;
+    font-size: 40px;
+    height: 25rem;
+    padding-top: 4rem;
+}
+
+.quote p{
+    margin: 0 2rem;
+}
+
+.quote p:first-child{
+    font-size: 2em;
+    font-weight: bolder;
+    break-inside: avoid;
+    color: rgb(75, 116, 75);
+    margin-top: 2rem;
+}
+
+.quote p:nth-child(2){
+    color:rgb(75, 116, 75);
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.socialmedia{
+    background-color: rgba(12, 51, 0, 0.562);
+    margin: 5rem 0 0 0;
+    padding: .2rem;
+    text-align: center;
+}
+
+.socialmedia .icon-container {
+    display: inline-block; 
+    border-radius: 50%; 
+    background-color: whitesmoke; 
+    padding: 10px; 
+    margin: 5px;
+}
+
+.socialmedia img {
+    display: block; 
+}
