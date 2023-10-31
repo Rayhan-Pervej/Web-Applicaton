@@ -142,56 +142,60 @@ nav .navunderline:hover:after{
     
 }
 
-.serviceContent{
-    columns: 3 300px;
-    column-gap: 4rem;
-    width: fit-content;
-    margin: 4rem auto;
+
+.container{
+    width:fit-content ;
+    margin: 2rem auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
-.serviceContent p{
-    break-inside: avoid;
-    margin: 2rem auto;
+.content{
+    height: min-content;
+    width: min-content;
     text-align: left;
-    width:min-content;
+    margin: 1rem 1rem;
+}
+
+.content p{
+    break-inside: avoid;
+    text-align: left;
     display: flex;
     flex-direction: column;
     color: rgb(75, 116, 75);
 }
 
-.serviceContent p:first-child{
-    margin-top: 0;
-}
-
-.serviceContent strong{
+.content strong{
     font-size: x-large;
     text-align: left;
 }
 
 
-
 .quote{
     background-color: rgba(92, 238, 129, 0.13);
+    min-height: 20rem;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContent{
+    font-family: 'lato';
+    font-size: 2rem;
     text-align: center;
-    font-size: 40px;
-    height: 25rem;
-    padding-top: 4rem;
-}
-
-.quote p{
-    margin: 0 2rem;
-}
-
-.quote p:first-child{
-    font-size: 2em;
+    margin: -1.5rem 2rem;
     font-weight: bolder;
     break-inside: avoid;
     color: rgb(75, 116, 75);
-    margin-top: 2rem;
 }
 
-.quote p:nth-child(2){
-    color:rgb(75, 116, 75);
+.quote .quoteContent:nth-child(1){
+    font-size: 6rem;
+    
 }
 
 .nowrap{
@@ -208,7 +212,7 @@ nav .navunderline:hover:after{
 .socialmedia .iconContainer {
     display: inline-block; 
     border-radius: 50%; 
-    background-color: whitesmoke; 
+    background-color: rgb(216, 255, 224); 
     padding: 10px; 
     margin: 5px;
 }
@@ -219,13 +223,13 @@ nav .navunderline:hover:after{
 
 .copyWrite{
     font-family: "lato";
-    background-color: rgb(41, 41, 41);
-    color: white;
+    background-color: rgb(43, 46, 43);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
 }
 
 .copyWrite a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
