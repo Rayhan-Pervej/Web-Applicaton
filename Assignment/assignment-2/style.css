@@ -205,7 +205,7 @@ nav .navunderline:hover:after{
     text-align: center;
 }
 
-.socialmedia .icon-container {
+.socialmedia .iconContainer {
     display: inline-block; 
     border-radius: 50%; 
     background-color: whitesmoke; 
@@ -215,4 +215,17 @@ nav .navunderline:hover:after{
 
 .socialmedia img {
     display: block; 
+}
+
+.copyWrite{
+    font-family: "lato";
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.copyWrite a{
+    text-decoration: none;
+    color: white;
 }
