@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(64, 59, 104)
+}
+
+nav{
+
+    background-color: rgb(34, 28, 54);
+}
+nav h2{
+
+    color:white;
+}
+
+nav .navData{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    mask-origin: 1rem;
+}
+
+nav .navText{
+    margin-right: 1rem;
+}
+
+#capitalize{
+    text-transform: capitalize;
+}
+
+.weatherMain .imgTemp{
+    display: flex;
+    align-items: center;
+}
+
+.weatherMain .otherInfo{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.weatherMain .otherInfo p{
+    font-weight:500;
+    color: rgb(13, 9, 44);
+}
+
+.otherInfoData{
+    margin-inline: 1rem;
+    text-align: center;
+}
+.weatherIcon{
+    height: 100px;
+    width: 100px;
+}
+
+.banner{
+    color: aliceblue;
+    text-align: center;
+}
+
+.formSection .form-group{
+    display: inline-block;
+}
+.formSection .formHeader{
+    color: aliceblue;
+}
+
+.forcast h3{
+    color: aliceblue;
+}
+
+.weatherMain .card{
+    background-color: rgba(213, 208, 255, 0.644);
+    margin-bottom: .5rem;
+    color: rgb(13, 9, 44);
+}
+
+.card-header, .card-text{
+    
+    color: rgb(13, 9, 44);
+}
+
+.forcast .card{
+    background-color: rgba(213, 208, 255, 0.644);
+    margin-bottom: .5rem;
+    color: rgb(13, 9, 44);
+}
