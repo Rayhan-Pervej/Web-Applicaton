@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  lightgray;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'poppins';
+    font-weight: bold;
+    text-align: center;
+    color: darkcyan;
+}
+
+p{
+    font-family: 'lato';
+    
+}
+
+
+/* Header */
+
+.header{
+    border: 2px solid red;
+}
+
+.headerText{
+    margin: 1rem 0 .5rem 0;
+}
+
+/* inbox message table */
+
+.inboxPeople{
+    border: 2px solid red;
+}
+
+.inboxMessage{
+    border: 2px solid green;
+    background-color: darkblue;
+}

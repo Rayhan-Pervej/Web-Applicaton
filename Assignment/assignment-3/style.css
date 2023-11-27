@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'lato';
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'poppins';
+}
+
+h1{
+    font-weight: bolder;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+li{
+    font-family: 'poppins';
+}
+
+/* Nav bar */
+.navbar{
+    background: rgba(22, 41, 35, 0.979)
+}
+.navbar i{
+    color: white;
+}
+.navbar a{
+    color: white;
+    position: relative;
+}
+
+.navbar a:hover, nav a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:active, nav a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .nav-link::after{
+    content:'';
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 2px;
+    left: 0;
+    bottom: -1px;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.navbar .nav-link:hover:after{
+    width: 100%;
+    
+}
+
+
+/* banner */
+
+ .banner{
+    background-color: rgba(127, 255, 212, 0.459);
+    width: 100%;
+    
+ }
+ .banner .col{
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-end;  
+ }
+
+ .myself{
+    border: 2px solid violet;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    
+ }
+
+ /* about me */
+
+ .about{
+    background-color: rgba(127, 236, 255, 0.575);
+ }
+
+ .about a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+
+ /* education */
+.education{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(124, 181, 255, 0.39);
+}
+ .edu-content{
+    
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 0 4px 4px 0;
+    border-left: 4px solid rgb(0, 0, 0);
+ }
+
+ .edu-content .time .event{
+    list-style: none;
+    margin: 2rem 3rem;
+    word-wrap: break-word;
+    position: relative;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.692);
+ }
+
+ .edu-content .time .event:after{
+    box-shadow: 0 0 0 4px #252323d7;
+    left: -3.65rem;
+    background: #000000;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    content: "";
+    top: 5px;
+    position: absolute;
+    display: block;
+}
+
+/* Projects */
+
+.project{
+    background-color: rgba(97, 97, 190, 0.5);
+    padding: 3rem 0;
+}
+
+.card{
+    margin-top: 1rem;
+    background-color: rgba(174, 182, 253, 0.63);
+
+}
+
+/* Activities */
+
+#activity {
+    background-color: rgba(23, 252, 38, 0.253);
+    padding: 2rem 0;
+}
+
+.activityHeader{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.activityImg{
+    display: block;
+    width: 100%;
+}
+
+.carousel-caption p{
+    color: rgb(226, 255, 64);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+.carousel-caption h5{
+    color:rgb(255, 231, 15);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+
+/* contact form */
+.contact{
+    padding: 2rem 0 1rem 0;
+    background-color: rgba(145, 255, 0, 0.205);
+}
+.contact h3{
+    text-align: center;
+}
+.contactForm{
+    
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactForm input, #comment{
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 3px;
+    background-color: #bebebe7a;
+    border: none;
+    font-size: 18px;
+    color: #000000;
+}
+
+.contactForm #submit{
+    background-color: #0408e8a8;
+    border-radius: 1rem;
+    width: 30%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.contactForm #submit:hover {
+    background-color: #0408e8c7;
+}
+
+/* Social Media */
+
+
+.socialmedia{
+    background-color: rgba(6, 22, 1, 0.87);
+
+    padding: 1rem;
+    text-align: center;
+}
+
+.socialmedia .iconContainer {
+    display: inline-block; 
+    border-radius: 50%; 
+    background-color: rgb(216, 255, 224); 
+    padding: 10px; 
+    margin: 5px;
+}
+
+.socialmedia img {
+    display: block; 
+}
+
+@media (max-width: 576px) {
+    .bannerImg{
+        text-align: center;
+    }
+    .about img{
+        display: none;
+    }
+
+    #activity .carousel-caption p {
+        display: none;
+    }
+}
+@media (min-width: 992px) { 
+    #activity .container{
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 1200px) { }
+
+
+
